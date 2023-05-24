@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hemen üye ol</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <link rel="stylesheet"  href="css/buttons.css">
+    
+
+    <style>
+      .baslık1 i{
+        color: rgb(66, 79, 133);
+      }
+      i{
+        color: yellow;
+        font-size: 20px;
+      }
+      
+      body{
+        background-image: url('img/cinema.jpg');
+       background-size: cover;/*resimi çerçeveye tam sıgdırır*/
+        
+      } 
+    </style>
+  </head>
+    
+  <body>    
+      <div class="container">
+     <!-- icon -->
+          
+           <a href="index.html"   id="backtotop" >
+            <i class="fa-sharp fa-solid fa-circle-left"></i>
+        </a>    
+      <h1 class="baslık1"><i class="fa-solid fa-user"></i>  Registration Form    </h1>
+      </div>
+    <main class="signup-page">
+      <div class="container">
+         
+          <form action="" class="signup-form">
+             <h1 class="signup-title">Create Your Account</h1>
+              <label for="firstname" ></label>
+              <input type="text" id="firstname"placeholder="Enter your name:">
+
+              <label for="lastname"></label>
+              <input type="text" id="lastname" placeholder="Enter your last name:" >
+
+              <label for="email"  ></label>
+              <input type="email" id="email"placeholder="Enter your email:">
+
+              <label for="password" ></label>
+              <input type="password" id="password"placeholder="Enter your password:" >
+
+              <label for="gender"></label>
+              <select id="gender" >
+                  <option value="">please choose</option>
+                  <option value="">Woman</option>
+                  <option value="">Male</option>
+              </select>
+
+              <input type="checkbox" id="agree-terms">
+              <label for="agree-terms">Agree to 
+                  <a href="#">Terms &amp; Conditions</a>
+              </label>
+
+              <button type="submit" class="btn ">Sign Up</button>
+              <h4 style="color: purple ;">  <i class="fa-solid fa-triangle-exclamation fa-fade"></i> Please Fill The Form Completely.     </h4>
+          </form>
+      </div>
+  </main> 
+  </body>
+
+</html>
